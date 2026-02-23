@@ -1,0 +1,43 @@
+{
+  "name": "@minions-qa-rules/sdk",
+  "version": "0.1.0",
+  "description": "Validation rules, consistency checks, compliance gates, and auto-fix definitions",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "docs": "typedoc"
+  },
+  "dependencies": {
+    "minions-sdk": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-markdown": "^4.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "keywords": ["qa-rules","ai","minions"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxn2020/minions-qa-rules"
+  },
+  "homepage": "https://qa-rules.minions.help"
+}
