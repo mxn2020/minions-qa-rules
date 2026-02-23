@@ -1,6 +1,12 @@
 ---
 name: minions-qa-rules
-description: Validation rules, consistency checks, compliance gates, and auto-fix definitions
+id: OC-0149
+version: 1.0.0
+description: "Validation rules, consistency checks, compliance gates, and auto-fix definitions"
+category: dev-tools
+subcategory: testing
+tags: ["minion", "dev-tools", "testing"]
+comments:
 ---
 
 # minions-qa-rules — Agent Skills
