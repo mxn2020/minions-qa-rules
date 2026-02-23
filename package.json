@@ -1,7 +1,7 @@
 {
     "name": "minions-qa-rules-workspace",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Validation rules, consistency checks, compliance gates, and auto-fix definitions",
     "type": "module",
     "license": "MIT",
