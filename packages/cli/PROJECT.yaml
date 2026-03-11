@@ -6,3 +6,4 @@ description: "CLI for minions-qa-rules — Validation rules, consistency checks,
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
