@@ -1,0 +1,8 @@
+name: "@minions-qa-rules/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-qa-rules-workspace
+description: "Validation rules, consistency checks, compliance gates, and auto-fix definitions"
+priority: high
+deploy_url: null
+tags: null
