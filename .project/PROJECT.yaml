@@ -1,0 +1,16 @@
+name: minions-qa-rules-workspace
+project_scope: main
+project_type: monorepo
+description: Validation rules, consistency checks, compliance gates, and auto-fix definitions
+tier: prototype
+lane: minions-platform
+priority: medium
+oss: true
+stack: ["typescript"]
+repo: "https://github.com/mxn2020/minions-qa-rules"
+deploy_url: null
+last_active: 2026-03-11
+tags: ["minions-qa-rules-workspace", "minions", "toolbox"]
+notes: null
+id: null
+category: minion-toolbox
